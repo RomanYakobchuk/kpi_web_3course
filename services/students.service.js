@@ -24,7 +24,7 @@ module.exports = {
             .find(filterQuery)
             .limit(filterPage.perPage)
             .skip(skip)
-            .sort({["surname"]: 'desc'})
+            .sort({["surname"]: 'asc'})
             .exec();
 
         const studentForRes = students.map((student) => presenter(student));
