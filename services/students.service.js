@@ -69,7 +69,6 @@ module.exports = {
     }
 }
 
-
 function _getFilterQuery(otherFilter) {
 
     const searchObject = {}
